@@ -10,6 +10,9 @@
 
   <remote  name="bam"
 	   fetch="https://github.com/iGio90/" />
+	  
+  <remote  name="gene"
+	   fetch="https://github.com/MovieGene/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -360,7 +363,7 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- JELLYBAM -->
-  <project path="platform_manifest" name="platform_manifest" remote="bam" revision="bam6" />
+  <project path="platform_manifest" name="platform_manifest" remote="gene" revision="bam6" />
 
   <project path="bootable/recovery" name="android_bootable_recovery" remote="bam" revision="bam6" />
 
